@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint 3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <div id="header">
+            <div class="header-main">
+                <div class="container">
+                    <div class="header-top-info">
+                        <div class="pull-right">
+                            <span class="header-main-data">Mon - Sun: 8:00am - 6:00pm</span>
+                        </div>                                  
+                        <div class="pull-right"> 
+                            <span class="header-main-data">(123) 456-7890</span>
+                        </div>                                 
+                        <div class="pull-right">
+                            <span class="header-main-data">1441 Market St, San Francisco</span>
+                        </div>
+                    </div>
+                    <div class="pull-right">
+                        <span class="top-menu">
+                            <a href="#">Login/Register</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="header-nav-holder">
+                <div class="container">
+                    <!--Logo-->
+                    <div class="logo-main">
+                        <a class="logo-wrapper" href="/">
+                            <img src="./images/logo.png" alt="Logo"> 
+                        </a>   
+                    </div>
+                    <ul class="main-menu">
+                        <li class="menu-item">
+                            <a href="/">Homepage</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#properties">Properties</a>
+                        </li>
+                        <li class="menu-item">
+                            <a  href="#agencies">Agencies</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Pages</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="./about-us/">About</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="our-contact/">Contact</a>
+                        </li>
+                        
+                    </ul>
+                    <!--Header search button-->
+                    <div class="pull-right">
+                        <div id="menu-submit-property-button">
+                            <a href="submit-listing-front/">Submit Listing</a>
+                        </div>
+                    </div>
+                    <div class="pull-right ">
+                        <div id="menu-favorites-button">
+                            <a href="#">
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pull-right ">
+                        <div class="menu-compare-button menu-item">
+                            <a href="compare/">Compare</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="casaroyal-content-wrapper" style="margin-top: 0px;">
+            <div class="casaroyal-page-wrapper">
+                <div class="casaroyal-page-content-fullwidth">
+                
+                    <div style="position: relative;">
+                        <div class="wpb_wrapper">
+                            <div class="casaroyal-property-asf-wrapper">
+                                <div class="casaroyal-page-title-image-background" style='background-image: url(./images/search.jpg);'></div>
+                                <div class="container">
+                                    <div class="casaroyal-property-asf  vc_custom_1537882099197">
+                                        <h2 class="title search-heading " style="color:#ffffff;">Let Us Guide You Home</h2>
+                                        <p class="search-heading-subtitle " style="color:#ffffff;">Find the house of your dreams</p>
+                                        <div class="advance-search as-form-wrap ">
+                                            <form class="row advance-search-form clearfix minimal-search-form minimal-search-form-casaroyal-style" action="#" method="get">
+                                                <div class="col-md-5">
+                                                    <div class="row">
+                                                        <div class="af-estate-search-field col-md-7">
+                                                            <span class="selectwrap" data-label="Type">
+                                                                <span>Type</span>
+                                                                <select name="type" id="select-property-type" class="search-select">
+                                                                    <option value="any" selected="selected">Select Type</option><option value="apartment">Apartment</option><option value="house">House</option>								                
+                                                                </select>
+                                                            </span>
+                                                        </div>
+                                                        <div class="af-estate-search-field col-md-5">
+                                                            <span class="selectwrap" data-label="Status">
+                                                                <span>Status</span>
+                                                                <select name="status" id="select-status" class="search-select">
+                                                                    <option value="any" selected="selected">Select Status</option><option value="for-rent">For Rent</option><option value="for-sale">For Sale</option>								                
+                                                                </select>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <div class="row">
+                                                        <div class="af-estate-search-field col-lg-8 col-md-7">
+                                                            <input type="text" name="keyword" id="inputSearch" class="casaroyal-search-keyword" placeholder="Search for properties, suburbs, or keywords…" autocomplete="off">
+                                                            
+                                                        </div>
+                                                        <input type="hidden" name="location" id="custom-location" value="">
+                                                        <div class="af-estate-search-field col-lg-4 col-md-5">
+                                                            <input style="margin-top: 0 !important; margin-bottom: 18px !important;" type="submit" value="Find Properties" class="af-estate-search-btn">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>                           
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="casaroyal-entry-title-wrapper ">
+                        <div class="casaroyal-entry-title">
+                            <h5 style="color: #8c8c8c">casaroyal Real Estate Agency</h5>			
+                            <h3 style="color: #111111"><span>Featured</span> Properties</h3>		
+                        </div>
+                    </div>
+
+
+
+                    <div class="wpb_wrapper" id="properties">
+                        <div class="row property-grid-view">
+                            <div id="propertiesFeatured"></div>
+                        </div>
+                        <div class="casaroyal-button-container casaroyal-button-align-center  casaroyal-button-size-medium  " id="allProperties">
+                            <a class="btn-casaroyal" href="#"  style="border-radius: 100px; text-align: left;">All Properties</a>
+                        </div>
+                    </div>
+        
+
+
+                    <div class="casaroyal-entry-title-wrapper ">
+                        <div class="casaroyal-entry-title casaroyal-entry-title-align-center ">
+                            <h5 style="color: #8c8c8c">casaroyal Real Estate Agency</h5>			
+                            <h3 style="color: #111111"><span>Hot</span> Deal</h3>		
+                        </div>
+                    </div>
+        
+
+
+                    <div class="wpb_wrapper" >
+                        <div class="casaroyal-single-property-shortcode">
+                            <div id="hotDeal"></div>
+                        </div>
+                    </div>
+        
+        
+                    <div class="casaroyal-entry-title-wrapper ">
+                        <div class="casaroyal-entry-title casaroyal-entry-title-align-center " style="padding-top: 120px;">
+                            <h5 style="color: #8c8c8c">casaroyal Real Estate Agency</h5>
+                            <h3 style="color: #111111"><span>Properties</span> by Area</h3>		
+                        </div>
+                    </div>
+        
+                    <div class="wpb_wrapper">
+                        <div class="row property-grid-view">
+                            <div id="propertiesByArea"></div>             
+                        </div>
+                    </div>
+
+                    <div class="row casaroyal-background-grey">
+                        <div class="casaroyal-entry-title-wrapper ">
+                            <div class="casaroyal-entry-title casaroyal-entry-title-align-center ">
+                                <h5 style="color: #8c8c8c">Meet our team</h5>			
+                                <h3 style="color: #111111"><span>Our</span> Agents</h3>		
+                            </div>
+                        </div>
+                        <div class="agent-wrapper" id="agencies">
+                            <div id="agent"></div>             
+                        </div>
+                    </div>
+    
+    
+    
+
+                    <div class="row wpb_wrapper-sell" style="position: relative;">
+                        <div class="casaroyal-page-title-image-background" style="background-image: url(./images/property-sell.jpg);"></div>
+                        <div class="container">
+                            <div class="casaroyal-property-asf">
+                                <div class="row">
+                                    <div class="col-md-7" style="float: left; ">
+                                        <div class="casaroyal-promo-block" style="background-color: #2842cd;">
+                                            <h2 style="color: #ffffff;">Want to Sell Property?</h2>
+                                            <p style="color: #c6cbea;">Let us create a tailored strategic marketing plan and keep track of the selling process.</p>
+                                            <div class="casaroyal-button-container   casaroyal-button-size-medium">
+                                                <a href="#" class="btn-casaroyal">
+                                                    More Details								
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+    
+    
+    
+                    <div  class="row casaroyal-background-grey-2" style="position: relative;padding: 120px;">
+                        <div class="casaroyal-entry-title-wrapper ">
+                            <div class="casaroyal-entry-title casaroyal-entry-title-align-center casaroyal-background-grey-2">
+                                <h5 style="color: #8c8c8c">Meet our team</h5>			
+                                <h3 style="color: #111111"><span>Real</span> Estate Agencies</h3>		
+                            </div>
+                        </div>
+                                    
+                        <div class="agent-wrapper">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="item-agency-container">
+                                    <div class="casaroyal-search-card">
+                                        <div class="casaroyal-search-card-body blog-card-body">
+                                            <div class="agency-info-header row">
+                                                <div class="col-md-6">
+                                                    <div class="d-flex align-items-center">
+                                                        <img  src="./images/Verified Icon.svg" alt="Verified">
+                                                        <div class="text-secondary">Verified</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="d-flex align-items-center text-right">
+                                                        <div class="text-secondary">
+                                                            4.5                                                
+                                                        </div>
+                                                    </div>                                           
+                                                </div>
+                                            </div>
+                                            <div class="casaroyal-search-card-image">
+                                                <a href="#" title="ProHouse">
+                                                    <img src="./images/proHouse.png" alt="ProHouse">
+                                                </a>
+                                            </div>
+                                            <div class="entry-title">
+                                                <div class="agency-flag" style="background-image: url(./images/united-states.svg);"></div>
+                                                <span>San Francisco, USA</span>
+                                            </div>
+                                            <h2><a href="#">ProHouse</a></h2>
+                                            <div class="entry-title agency-contacts">
+                                                <h5><a href="tel:123 456 7890">123 456 7890</a></h5>
+                                                <h5><a href="mailto:agency@email.com">agency@email.com</a></h5>                                          
+                                            </div>
+                                            <div class="agency-info-meta">
+                                                <a class="btn-sm btn-soft-primary" href="./agency/alandoeagency/">
+                                                    3 Properties                     
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="item-agency-container">
+                                    <div class="casaroyal-search-card">
+                                        <div class="casaroyal-search-card-body blog-card-body">
+                                            <div class="agency-info-header row">
+                                                <div class="col-md-6">
+                                                    <div class="d-flex align-items-center">
+                                                        <img  src="./images/Verified Icon.svg" alt="Verified">
+                                                        <div class="text-secondary">Verified</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="d-flex align-items-center text-right">
+                                                        <div class="text-secondary">
+                                                            4.5                                                
+                                                        </div>
+                                                    </div>                                           
+                                                </div>
+                                            </div>
+                                            <div class="casaroyal-search-card-image">
+                                                <a href="#" title="beHome">
+                                                    <img src="./images/beHome.png" alt="beHome">
+                                                </a>
+                                            </div>
+                                            <div class="entry-title">
+                                                <div class="agency-flag" style="background-image: url(./images/united-states.svg);"></div>
+                                                <span>Los Angeles, USA</span>
+                                            </div>
+                                            <h2><a href="#">beHome</a></h2>
+                                            <div class="entry-title agency-contacts">
+                                                <h5><a href="tel:123 456 7890">123 456 7890</a></h5>
+                                                <h5><a href="mailto:agency@email.com">agency@email.com</a></h5>                                          
+                                            </div>
+                                            <div class="agency-info-meta">
+                                                <a class="btn-sm btn-soft-primary" href="./agency/alandoeagency/">
+                                                    3 Properties                     
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="item-agency-container">
+                                    <div class="casaroyal-search-card">
+                                        <div class="casaroyal-search-card-body blog-card-body">
+                                            <div class="agency-info-header row">
+                                                <div class="col-md-6">
+                                                    <div class="d-flex align-items-center">
+                                                        <img  src="./images/Verified Icon.svg" alt="Verified">
+                                                        <div class="text-secondary">Verified</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="d-flex align-items-center text-right">
+                                                        <div class="text-secondary">
+                                                            4.5                                                
+                                                        </div>
+                                                    </div>                                           
+                                                </div>
+                                            </div>
+                                            <div class="casaroyal-search-card-image">
+                                                <a href="#" title="Alain Doe">
+                                                    <img src="./images/beHome.png" alt="Alain Doe">
+                                                </a>
+                                            </div>
+                                            <div class="entry-title">
+                                                <div class="agency-flag" style="background-image: url(./images/united-states.svg);"></div>
+                                                <span>Seattle, USA</span>
+                                            </div>
+                                            <h2><a href="#">Alain Doe</a></h2>
+                                            <div class="entry-title agency-contacts">
+                                                <h5><a href="tel:123 456 7890">123 456 7890</a></h5>
+                                                <h5><a href="mailto:agency@email.com">agency@email.com</a></h5>                                          
+                                            </div>
+                                            <div class="agency-info-meta">
+                                                <a class="btn-sm btn-soft-primary" href="./agency/alandoeagency/">
+                                                    3 Properties                     
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="row casaroyal-background-grey" style="position: relative;padding: 120px;">
+                        <div class="casaroyal-entry-title-wrapper casaroyal-background-grey">
+                            <div class="casaroyal-entry-title casaroyal-entry-title-align-center casaroyal-background-grey">
+                                    <h5 style="color: #8c8c8c">casaroyal News</h5>			
+                                    <h3 style="color: #111111"><span>Articles</span> &amp; Tips</h3>		
+                            </div>
+                        </div>
+                        <div class="col-md-4 category-uncategorized">
+                            <div class="casaroyal-search-card-image">
+                                <a href="#">
+                                    <img src="./images/buying at home.png">
+                                </a>
+                            </div> 
+                            <div class="casaroyal-search-card-body blog-card-body">
+                                <div class="casaroyal-categories-post"><a href="#" rel="category tag">Category</a></div>
+                                <h2><a href="#">BUYING A HOME</a></h2>
+                                <span class="casaroyal-search-card-body-meta"> 
+                                    <span>
+                                        <span>
+                                            <img src="./images/Time Icon.png" alt="clock">
+                                        </span> 
+                                        DECEMBER 28, 2018
+                                    </span>
+                                </span>
+                            </div>
+                        </div> 
+                        <div class="col-md-4 category-uncategorized">
+                            <div class="casaroyal-search-card-image">
+                                <a href="#">
+                                    <img src="./images/COUNTRYSIDE.png">
+                                </a>
+                            </div> 
+                            <div class="casaroyal-search-card-body blog-card-body">
+                                <div class="casaroyal-categories-post"><a href="#" rel="category tag">Category</a></div>
+                                <h2><a href="#">Pros and cons on a countryside house</a></h2>
+                                <span class="casaroyal-search-card-body-meta"> 
+                                    <span>
+                                        <span>
+                                            <img src="./images/Time Icon.png" alt="clock">
+                                        </span> 
+                                        DECEMBER 28, 2018
+                                    </span>
+                                </span>
+                            </div>
+                        </div> 
+                        <div class="col-md-4 category-uncategorized">
+                            <div class="casaroyal-search-card-image">
+                                <a href="#">
+                                    <img src="./images/buying at home2.png">
+                                </a>
+                            </div> 
+                            <div class="casaroyal-search-card-body blog-card-body">
+                                <div class="casaroyal-categories-post"><a href="#" rel="category tag">Category</a></div>
+                                <h2><a href="#">Pros and cons on a countryside house</a></h2>
+                                <span class="casaroyal-search-card-body-meta"> 
+                                    <span>
+                                        <span>
+                                            <img src="./images/Time Icon.png" alt="clock">
+                                        </span> 
+                                        DECEMBER 28, 2018
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="casaroyal-button-container casaroyal-button-align-center   casaroyal-button-size-medium">
+                            <a class="btn-casaroyal"  href="#" style="border-radius: 100px; text-align: left;margin-top: 120px;">More Articles &amp; Tips</a>
+                        </div>                                   
+                    </div>
+        
+
+                    <div  class="row casaroyal-background-grey-2" style="position: relative;padding: 120px;">
+                        <div class="casaroyal-entry-title-wrapper ">
+                            <div class="casaroyal-entry-title casaroyal-entry-title-align-center ">
+                                    <h5 style="color: #8c8c8c">casaroyal Real Estate Agency</h5>			
+                                    <h3 style="color: #111111"><span>Our</span> Values</h3>		
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="casaroyal-icon-box casaroyal-icon-box-style-boxed ">
+                                <div class="casaroyal-icon-box-content">
+                                    <h4 style="text-align: left;">Ensuring clear communication</h4>
+                                    We keep you in the loop every step of the way. You can rely on a transparent, comprehensible flow of information.				
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="casaroyal-icon-box casaroyal-icon-box-style-boxed ">
+                                <div class="casaroyal-icon-box-content">
+                                    <h4 style="text-align: left;">Making the most of technology</h4>
+                                    Time is precious. We guarantee a high degree of efficiency and a premium level of service by using the right tools.				
+                                </div>
+                
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="casaroyal-icon-box casaroyal-icon-box-style-boxed ">
+                                <div class="casaroyal-icon-box-content">
+                                    <h4 style="text-align: left;">Providing excellent customer service</h4>
+                                    We are passionate about what we do and we take pride in achieving the personalised results that you have in mind.				
+                                </div>
+                            </div>
+                        </div>
+                        <div class="casaroyal-button-container casaroyal-button-align-center  casaroyal-button-size-medium  ">
+                            <a class="btn-casaroyal" href="#" style="border-radius: 100px; text-align: left;margin-top: 120px;">Read More</a>
+                        </div>
+                    </div>
+
+        
+        
+                    <div  class="row review-clients">
+                        <div class="casaroyal-entry-title-wrapper ">
+                            <div class="casaroyal-entry-title casaroyal-entry-title-align-left ">
+                                <h5 style="color: #f4f4f4;text-align: left;">Clients Reviews</h5>			
+                                <h3 style="color: #ffffff;text-align: left;"><span>What</span> Our Clients Say</h3>		
+                            </div>
+                        </div>
+                        <div class="item-testimonials">
+                            <div class="item-testimonials-body">
+                                <p class="testimonial-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend nunc sem, sit amet luctus tellus tempus tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                                <div class="testimonial-author">
+                                    <div class="item-testimonials-avatar">
+                                        <img src="./images/agent-testimonial.jpg">
+                                    </div>
+                                    <div class="item-testimonials-author-data">
+                                        <h2>Helen McDonald</h2>
+                                        <span class="item-testimonials-meta">
+                                            New York									
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="casaroyal-page-footer casaroyal-page-footer-v2">
+                <div class="casaroyal-footer-header">
+                    <div class="footer-container">
+                        <a class="logo-wrapper" href="#">
+                            <img src="./images/logo-light.png" alt="Logo">						
+                        </a>
+                    </div>
+                </div>
+                <div class="site-info">
+                    <div class="footer-container">
+                        <div class="row">
+                           <div class="col-md-2 col-sm-6">
+                                <div class="sidebar-footer">
+                                    <div class="widget widget_nav_menu">
+                                        <div class="widget-content"><div class="widget-title-container"><h3 class="widget-title">Information</h3></div>
+                                            <div class="menu-casaroyal-information-menu-footer-widget-container">
+                                                <ul>
+                                                    <li><a href="#">Our Contacts</a></li>
+                                                    <li><a href="#">Privacy Policy</a></li>
+                                                    <li><a href="#">Terms and Conditions</a></li>
+                                                    <li><a href="#">FAQs</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>	
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6">
+                                <div class="sidebar-footer">
+                                    <div class="widget widget_nav_menu">
+                                        <div class="widget-content">
+                                            <div class="widget-title-container"><h3 class="widget-title">Properties</h3></div>
+                                            <div class="menu-casaroyal-properties-menu-footer-widget-container">
+                                                <ul>
+                                                    <li><a href="#">Commercial</a></li>
+                                                    <li><a href="#">House</a></li>
+                                                    <li><a href="#">Office</a></li>
+                                                    <li><a href="#">Residential</a></li>
+                                                    <li><a href="#">Residential Tower</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>	
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6">
+                                <div class="sidebar-footer">
+                                    <div class="widget widget_nav_menu">
+                                        <div class="widget-content">
+                                            <div class="widget-title-container"><h3 class="widget-title">Locations</h3></div>
+                                            <div class="menu-casaroyal-locations-menu-footer-widget-container">
+                                                <ul>
+                                                    <li><a href="#">Beverly Hills</a></li>
+                                                    <li><a href="#">Los Angeles</a></li>
+                                                    <li><a href="#">Mission Viejo</a></li>
+                                                    <li><a href="#">Newport Beach</a></li>
+                                                    <li><a href="#">Pasadena</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>	
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6">
+                                <div class="sidebar-footer">
+                                    <div class="widget widget_nav_menu">
+                                        <div class="widget-content">
+                                            <div class="widget-title-container"><h3 class="widget-title">Useful Links</h3></div>
+                                            <div class="menu-casaroyal-useful-links-menu-footer-widget-container">
+                                                <ul id="menu-casaroyal-useful-links-menu-footer-widget" class="menu">
+                                                    <li><a href="#">Blog</a></li>
+                                                    <li><a href="#">Our Contacts</a></li>
+                                                    <li><a href="#">Submit Listing</a></li>
+                                                    <li><a href="#">Support</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>	
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="sidebar-footer">
+                                    <div class="widget widget_text">
+                                        <div class="widget-content">
+                                            <div class="widget-title-container"><h3 class="widget-title">About casaroyal</h3></div>			
+                                            <div class="textwidget">
+                                                <p>casaRoyal - Premium Real Estate Wordpress Theme by <a href="#">FantasyThemes</a>.</p>
+                                                <p>111 Wall Street, USA, New York<br>
+                                                Phone: (123) 456-7890<br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>	
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="site-socket">
+                    <div class="container">
+                        Proudly powered by <a href="#">WordPress</a> and <a href="#">casaRoyal</a> by <a href="#">FantasyThemes</a>
+                        <ul class="casaroyal-footer-menu">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li>Terms and Conditions</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>   
+</body>
+</html>

@@ -1,0 +1,1134 @@
+.main-wrapper{
+    overflow-x: hidden;
+}
+.hide{
+    display: none;
+}
+.header-main{
+    background-color: #2a41e8;
+}
+.header-main .header-top-info {
+    padding: 18px 0;
+    float: left;
+    color:white
+}
+#header .container {
+    padding: 0 35px;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+.pull-right {
+    float: right;
+}
+.header-main .header-main-data {
+    position: relative;
+    padding-left: 30px;
+    margin-left: 30px;
+    display: block;
+}
+
+#header .header-main .top-menu a {
+    line-height: 18px !important;
+    float: left;
+    padding: 18px 20px;
+    color: #fff;
+    text-align: center;
+    border-left: solid 1px rgba(255,255,255,.1);
+    color: #fff;
+    width: auto;
+}
+
+#header .logo-main img {
+    float: left;
+    height: 42px;
+}
+#header .logo-main {
+    float: left;
+    display: inline-block;
+    border-right: 1px solid #efefef;
+    vertical-align: top;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    margin-right: 10px;
+}
+.main-menu li {
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+ul.main-menu {
+    margin: 0;
+    padding: 0;
+}
+.main-menu li.menu-item a {
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 32px 14px;
+    font-family: 'Rubik', sans-serif;
+    color: #232628;
+    -webkit-font-smoothing: antialiased;
+}
+
+#menu-submit-property-button a {
+    font-weight: 500;
+    padding: 32px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 18px;
+    float: left;
+    background-color: #ff5e14;
+    color: #fff;
+    height: 100%;
+    margin-right: -35px;
+}
+.menu-compare-button a, #menu-favorites-button a {
+    padding: 32px 40px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #232628;
+    border-left: 1px solid #efefef;
+    float: left;
+}
+
+/* search*/
+select{
+    float: left;
+    width: 100%;
+    margin: 0;
+    font-size: 16px;
+    position: relative;
+    display: block;
+    padding: 0px 15px 15px;
+    color: #232628;
+    border: 1px solid #ececec;
+    border-color: transparent !important;
+    background-color: #ececec;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    outline: none;
+    border-radius: 4px;
+}
+.selectwrap{
+    background-color: #ececec;
+    position: unset;
+    color: gray;
+    width: 100%;
+    display: table;
+    border-radius: 4px;
+}
+.selectwrap span{
+    margin: 20px;
+    font-size: 14px;
+    vertical-align: bottom;
+}
+.advance-search .af-estate-search-field .af-estate-search-btn, .btn {
+    cursor: pointer;
+    background-color: #2a41e8;
+    box-shadow: 2px 2px 0 rgba(0,0,0,.1);
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    line-height: 32px;
+    font-size: 18px;
+    padding: 10px 15px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    outline: none !important;
+    height: 59px;
+    padding: 15px !important;
+}
+.casaroyal-content-wrapper {
+    position: relative;
+    z-index: 999;
+    float: left;
+    width: 100%;
+}
+.casaroyal-page-wrapper {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    position: relative;
+    z-index: 99;
+}
+.casaroyal-page-content-fullwidth {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    padding: 0;
+}
+.casaroyal-page-title-image-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.advance-search {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 90px -15px rgba(41, 44, 28, 0.085);
+    -ms-box-shadow: 0px 0px 90px -15px rgba(41, 44, 28, 0.085);
+    box-shadow: 0px 0px 90px -15px rgba(41, 44, 28, 0.085);
+    border: none;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    border-radius: 4px;
+    color: #fff;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.casaroyal-property-asf .advance-search form.advance-search-form {
+    padding: 20px 30px;
+      padding-bottom: 20px;
+    padding-bottom: 10px;
+}
+.casaroyal-property-asf .advance-search form.minimal-search-form.minimal-search-form-casaroyal-style input.af-estate-search-btn {
+    padding: 13px 15px;
+}
+.casaroyal-property-asf .advance-search form.minimal-search-form .af-estate-search-field {
+    margin-top: 10px;
+}
+.advance-search .af-estate-search-field input{
+    padding: 20px 13px !important;   
+}
+.advance-search .af-estate-search-field input, .advance-search .af-estate-search-field select {
+    float: left;
+    width: 100%;
+    margin: 0;
+    font-size: 14px;
+    position: relative;
+    display: block;
+    line-height: 1;
+    padding: 0px 15px 15px;
+    color: #232628;
+    border: 1px solid #ececec;
+    background-color: #ececec;
+    border-radius: 4px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    outline: none;
+}
+.as-form-wrap .chosen-container-single .chosen-single{
+    float: left;
+    width: 100%;
+    margin: 0;
+    font-size: 16px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #232628;
+    border: 1px solid #ececec;
+    border-color: transparent !important;
+    background-color: #ececec;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    outline: none;
+    border-radius: 4px;
+    height: 46px;
+}
+
+/* title Featured Properties */
+.casaroyal-entry-title {
+    width: 100%;
+    float: left;
+    margin: 60px 0;
+    position: relative;
+    z-index: 9;
+}
+
+.casaroyal-entry-title h5 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    color: #8c8c8c;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.casaroyal-entry-title h3 {
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    position: relative;
+    text-align: center;
+}
+.casaroyal-entry-title h3 span {
+    font-weight: 600;
+}
+
+/*cards*/
+
+.property-grid-card {
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.property-grid-image .property-status-label {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    z-index: 9;
+    color: #fff;
+    font-size: 12px;
+}
+.property-grid-image .property-status-label span {
+    background-color: #ff5e14;
+    padding: 7px 10px;
+    border-radius: 3px;
+    margin-left: 5px;
+    float: left;
+}
+.property-grid-image .property-status-label span.property-type{
+    background-color: #2a41e8;
+}
+
+.property-grid-view .property-grid-image a {
+    display: inline-block;
+    background-size: cover;
+    -webkit-transition: -webkit-transform 0.3s;
+}
+
+.property-link-over-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+}
+.property-grid-view .property-grid-image {
+    width: 100%;
+    display: block;
+    position: relative;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 80%;
+    background-color: #2a41e8;
+}
+
+.property-grid-view .property-grid-image a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #2842cd;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.property-grid-content {
+    width: 100%;
+    float: left;
+    padding: 25px;
+    background-color: #fff;
+    position: relative;
+    z-index: 9999;
+    text-align: left;
+}
+
+.property-grid-item-holder {
+    margin-top: -85px;
+    min-height: 239px;
+}
+.property-grid-item-holder .property-grid-price {
+    margin-bottom: 45px;
+    background-color: #fff;
+    color: #2a41e8;
+    text-transform: inherit;
+}
+.property-grid-price {
+    background-color: #2a41e8;
+    display: inline-block;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-family: 'Rubik', sans-serif;
+    padding: 7px 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 0 rgba(0,0,0,.1);
+}
+.casaroyal-property-title-holder {
+    display: inline-block;
+    width: 100%;
+}
+.property-location-label {
+    font-family: 'Rubik', sans-serif;
+    color: #848484;
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.property-grid-view .property-grid-item .property-grid-title-v2 {
+    text-align: left;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: normal;
+    margin: 0;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    color: #1d1d1d;
+}
+a {
+    color: #1d1d1d;
+}
+.casaroyal-property-agent-name, .casaroyal-property-listing-time {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #848484;
+}
+.property-agent-avatar {
+    height: 16px;
+    display: inline-block !important;
+    width: 16px !important;
+    vertical-align: top;
+    border-radius: 0px;
+    margin-right: 3px;
+}
+.casaroyal-property-listing-time {
+    float: right;
+}
+.property-agent-avatar.avatar-agent {
+    border-radius: 8px;
+}
+
+.property-meta-item {
+    display: inline-block;
+    width: 25%;
+    max-width: 25%;
+    float: left;
+    padding-right: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.property-grid-view .property-meta-item {
+    width: auto !important;
+    padding-right: 0;
+    padding-left: 7px;
+    float: right;
+}
+.property-grid-view .property-meta-item.first-item {
+    float: left;
+    padding-left: 0;
+    max-width: 45%;
+}
+.casaroyal-button-container.casaroyal-button-align-center {
+    text-align: center;
+}
+.casaroyal-button-container.casaroyal-button-size-medium a.btn-casaroyal {
+    padding: 16px 40px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.casaroyal-button-container {
+    display: block;
+    margin-bottom: 30px;
+    max-width: 100%;
+    margin-top: 30px;
+  }
+.btn-casaroyal, .woocommerce a.button {
+    font-family: 'Rubik', sans-serif;
+    border-radius: 100px;
+    padding: 20px 40px;
+    font-weight: 500;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    letter-spacing: 3px;
+    -webkit-appearance: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s linear;
+    -webkit-transition: 0.1s linear;
+    -moz-transition: 0.1s linear;
+    background: rgb(17, 17, 17);
+    color: #fff !important;
+    -webkit-transition: all 0.2s ease !important;
+    -moz-transition: all 0.2s ease !important;
+    -ms-transition: all 0.2s ease !important;
+    -o-transition: all 0.2s ease !important;
+    transition: all 0.2s ease !important;
+}
+
+.wpb_wrapper{
+    margin-bottom: 90px;
+}
+/*hot deal*/
+.bph-image {
+    background-size: cover;
+    background-position: center;
+
+}
+.casaroyal-single-property-shortcode {
+    float: left;
+    width: 100%;
+}
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.casaroyal-single-property-shortcode.bph .row {
+    height: auto;
+    min-height: auto;
+}
+.bph-image .casaroyal-image-gallery {
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.bph-meta {
+    background: #292929;
+    text-align: center;
+    padding: 0 20px;
+    display: grid;
+    color: #fff;
+    min-height: 680px;
+    height: calc(100vh - 136px);
+    order: 2;
+}
+.bph-type {
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+}
+h2.bph-title {
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    width: 100%;
+    float: left;
+}
+h2.bph-title a {
+    color: #fff;
+}
+
+.bph-meta p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #969696;
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+.bph-price {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bph-meta .property-price-wrapper {
+    padding: 10px 20px;
+    background-color: #ff5e14;
+    border-radius: 4px;
+    display: inline-block;
+}
+.bph-play-video {
+    width: 60px;
+    height: 60px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    opacity: .7;
+}
+.property-price-number{
+    font-weight: bold;
+}
+.bph-meta .property-meta-item {
+    margin: 0;
+    text-align: left;
+    max-width: unset;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bph-meta .property-meta {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+/*properties by area*/
+.casaroyal-banner {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding: 30px;
+    background-color: #000000;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.casaroyal-banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: calc(100% + 30px);
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    z-index: 1;
+    backface-visibility: hidden;
+    perspective: 800px;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 800px;
+    opacity: .7;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+.casaroyal-banner:hover .casaroyal-banner-image {
+    opacity: .4;
+    left: -30px;
+}
+
+.property-cat-block-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    width: 80%;
+    width: -webkit-calc(100% - 60px);
+    width: calc(100% - 60px);
+    color: #fff;
+    z-index: 999;
+    text-align: left;
+}
+.property-cat-block {
+    height: 360px !important;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.property-cat-block-content span.property-cat-block-name {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 5px;
+    float: left;
+    width: 100%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+/*our agents*/
+.card-agent-item{
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    text-align: left;
+}
+.item-agent-container{
+    border-radius: 4px;
+}
+.casaroyal-search-card-body {
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    text-align: left;
+    border-radius: 4px;
+}
+.casaroyal-search-card-image img{
+    width: 100%;
+}
+
+.casaroyal-search-card-image {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    z-index: 9999;
+    position: relative;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.item-agent-container .casaroyal-card-image {
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.agent-wrapper .entry-title {
+    margin-bottom: 0;
+    color: #b7b7b7;
+    font-size: 20px;
+    text-align: left;
+}
+.agent-wrapper h2 {
+    text-align: left !important;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: .2px;
+    margin-bottom: 5px;
+}
+.agent-wrapper .entry-title h5 {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+.agent-wrapper .entry-title h5 a{
+    color: #b7b7b7;
+}
+.agent-wrapper .agent-social-link {
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid #ececec;
+    padding: 0;
+    width: auto;
+    float: left;
+    margin-top: 30px;
+}
+.agent-wrapper .agent-social-link li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #ececec;
+    width: 70px;
+    float: left;
+    height: 30px;
+}
+.casaroyal-background-grey {
+    background-color: #f3f3f3;
+    padding-bottom: 90px;
+}
+.casaroyal-background-grey-2 {
+    background-color: #fafafa !important;
+}
+/*sell property*/
+.casaroyal-promo-block {
+    padding: 90px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.casaroyal-promo-block h2 {
+    line-height: 1.06em;
+    font-size: 3.474em;
+    color: white;
+}
+.casaroyal-property-asf {
+    padding-top: 180px !important;
+    padding-bottom: 180px !important;
+}
+.casaroyal-promo-block p {
+    color: #6d6d6d;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+/*estate agencies*/
+.text-secondary {
+    color: #676767 !important;
+    font-size: 20px;
+    text-transform: initial;
+    float: left;
+}
+.agency-info-header .text-secondary {
+    font-size: 16px;
+}
+.text-right {
+    text-align: right;
+}
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.agency-info-header .text-right {
+    justify-content: end;
+}
+.item-agency-container .casaroyal-search-card-image a img {
+    max-height: 160px;
+    width: auto;
+    float: none;
+    display: inline-block;
+}
+.item-agency-container .casaroyal-search-card-body.blog-card-body .entry-title, .item-agency-container .casaroyal-search-card-body .entry-title h5 {
+    text-align: center;
+}
+.agency-flag {
+    width: 24px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    float: left;
+    margin-right: 7px;
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+    border-radius: 2px;
+    margin-top: 8px;
+}
+.item-agency-container .agency-flag {
+    box-shadow: none;
+    float: none;
+    position: relative;
+    bottom: -1px;
+    margin-right: 5px;
+}
+.item-agency-container .casaroyal-search-card-body.blog-card-body h2 {
+    text-align: center !important;
+}
+.item-agency-container .casaroyal-search-card-body.blog-card-body h2 {
+    text-transform: inherit;
+}
+.item-agent-container .casaroyal-search-card-body .entry-title a, .item-agency-container .casaroyal-search-card-body .entry-title a {
+    margin: 0;
+    font-size: 18px;
+}
+.agency-info-meta {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.btn-soft-primary {
+    color: #2a41e8;
+    background: rgba(42, 65, 232, 0.1);
+    position: relative;
+    display: inline-block;
+}
+/*Articles & Tips*/
+.casaroyal-categories-post {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+.category-uncategorized .casaroyal-search-card-body{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.category-uncategorized .casaroyal-search-card-image{
+    margin-bottom: 0px;
+}
+.casaroyal-categories-post a, .casaroyal-categories-post span {
+    color: #fff !important;
+    background-color: #2a41e8;
+    padding: 5px 12px;
+    border-radius: 3px;
+    float: left;
+    font-size: 13px;
+    line-height: 13px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-family: 'Rubik', sans-serif;
+}
+.casaroyal-search-card-body.blog-card-body h2 {
+    margin: 0 0 30px 0;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1.3;
+    letter-spacing: .1px;
+    text-transform: uppercase;
+}
+.casaroyal-search-card-body-meta {
+    width: 100%;
+    padding-top: 30px;
+    border-top: solid 1px #f4f4f4;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    float: left;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+}
+/*our values*/
+.casaroyal-icon-box h4{
+    font-size: 28px;
+    color: #111111;
+}
+.casaroyal-icon-box-style-boxed {
+    position: relative;
+    overflow: hidden;
+    padding: 4rem;
+    background-color: #fff;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.casaroyal-icon-box-content{
+    color: #999999;
+    font-size: 15px;
+}
+/*testimonials*/
+.review-clients{
+    padding-top: 60px !important;
+    padding-bottom: 120px !important;
+    background: #333333 url(./images/testimonials-bg-1.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    text-align: left;
+
+}
+.review-clients .casaroyal-entry-title-wrapper, .item-testimonials{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.item-testimonials-body .testimonial-quote {
+    font-size: 16px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    font-style: normal;
+    position: relative;
+    letter-spacing: 1px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 48px;
+    padding: 0;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    color: #f4f4f4;
+}
+.testimonial-author {
+    margin-bottom: 30px;
+    width: 100%;
+    float: left;
+}
+.item-testimonials-avatar, .item-testimonials-author-data {
+    width: auto;
+    display: block;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-right: 30px;
+    float: left;
+}
+.item-testimonials-avatar img {
+    max-width: 90px;
+    height: auto;
+    display: inline-block !important;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    overflow: hidden;
+}
+.item-testimonials-body h2 {
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    width: auto;
+}
+.item-testimonials-meta {
+    position: relative;
+    width: auto;
+    display: block;
+    font-family: 'Montserrat-Light', sans-serif;
+    color: #afafaf;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+/*footer*/
+.casaroyal-footer-header {
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+    float: left;
+    padding: 0 30px;
+    width: 100%;
+    font-size: .6875em;
+    font-weight: 700;
+    letter-spacing: .25em;
+    border-bottom: solid 1px rgba(255, 255, 255, .07);
+}
+.casaroyal-page-footer-v2 {
+    display: inline-block;
+    width: 100%;
+    background-color: #151515;
+    position: relative;
+}
+.casaroyal-footer-header .logo-wrapper img {
+    float: left;
+    height: 42px;
+}
+.site-info {
+    color: #B1B1B1;
+    text-align: center;
+    display: block;
+    float: left;
+    padding: 120px;
+    padding-bottom: 0;
+    width: 100%;
+    font-size: .6875em;
+    font-weight: 700;
+    letter-spacing: .25em;
+}
+.casaroyal-page-footer-v2 .site-info {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+.footer-container {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 2;
+}
+.sidebar-footer .widget-title {
+    color: rgba(255,255,255,.7);
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    background: transparent;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.casaroyal-footer-header .logo-wrapper {
+    padding: 30px;
+      padding-left: 30px;
+    padding-left: 0;
+    float: left;
+}
+.widget-title {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-bottom: 0;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    padding-bottom: 30px;
+    font-weight: 500 !important;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 0.2px;
+}
+.sidebar-footer .widget_archive li, .sidebar-footer .widget_categories li, .sidebar-footer .widget_meta li, .sidebar-footer .widget_nav_menu li, .sidebar-footer .widget_pages li {
+    padding: 0;
+    border: none;
+    padding: 10px 0;
+    float: left;
+    width: 100%;
+}
+.widget-content ul li {
+    list-style: none !important;
+}
+.sidebar-footer .widget_archive li a, .sidebar-footer .widget_categories li a, .sidebar-footer .widget_meta li a, .sidebar-footer .widget_nav_menu li a, .sidebar-footer .widget_pages li a {
+    color: rgba(255,255,255,.5) !important;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    font-weight: normal !important;
+}
+.widget-content ul {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline-block;
+    width: 100%;
+}
+.sidebar-footer p {
+    font-size: 16px;
+    color: rgba(255,255,255,.5);
+    padding-bottom: 20px;
+    margin-top: 0;
+    letter-spacing: 0.05em;
+}
+.casaroyal-page-footer-v2 .site-socket, .casaroyal-page-footer-v3 .site-socket {
+    padding-bottom: 40px;
+    border-top: 1px solid rgba(255,255,255,.07);
+}
+.site-socket a, .site-fullscreen-menu-socket a {
+    font-weight: 700;
+    position: relative;
+    color: rgba(255, 255, 255, 0.5);
+}
+.casaroyal-footer-menu {
+    float: right;
+    margin: 0;
+}
+.casaroyal-footer-menu li {
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.site-socket {
+    float: left;
+}
+.site-socket, .site-fullscreen-menu-socket {
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+    padding: 60px 10px !important;
+    width: 100%;
+    font-size: 14px !important;
+    letter-spacing: 0.05em;
+    font-family: 'Rubik', sans-serif;
+}
+@media (min-width: 1200px) {
+    .container {
+    width: 1280px;
+    }
+}

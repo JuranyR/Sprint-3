@@ -1,0 +1,215 @@
+{
+    "FeaturedProperties": [
+      {
+        "id": 1,
+        "image":"./images/properties/RexfordDr.png",
+        "name": "272 S Rexford Dr, Beverly Hills, CA 90212, USA",
+        "location": "Beverly Hills, CA",
+        "type": "apartment",
+        "status": "for-rent",
+        "price": "$320,000.00",
+        "agent":{
+            "name": "Hellen Mattis",
+            "image": "./images/agent-1-2-60x60.jpg"
+        },
+        "propietary":{
+            "name": "Hellen Mattis",
+            "phoneNumber": "123 456 7890",
+            "email": "agent@gmail.com"
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+        "date": "4 months ago",
+        "area": "2400 Sq Ft",
+        "garage": "2",
+        "bedroom": "3",
+        "bathroom": "3"
+      },
+      {
+        "id": 2,
+        "image":"./images/properties/RexfordDr2.png",
+        "name": "272 S Rexford Dr, Beverly Hills, CA 90212, USA",
+        "location": "Beverly Hills, CA",
+        "type": "apartment",
+        "status": "for-rent",
+        "price": "$320,000.00",
+        "agent":{
+            "name": "Hellen Mattis",
+            "image": "./images/agent-1-2-60x60.jpg"
+        },
+        "propietary":{
+            "name": "Hellen Mattis",
+            "phoneNumber": "123 456 7890",
+            "email": "agent@gmail.com"
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+        "date": "4 months ago",
+        "area": "2400 Sq Ft",
+        "garage": "2",
+        "bedroom": "3",
+        "bathroom": "3"
+      },
+      {
+        "id": 3,
+        "image":"./images/properties/anna3.png",
+        "name": "272 S Rexford Dr, Beverly Hills, CA 90212, USA",
+        "location": "Beverly Hills, CA",
+        "type": "house",
+        "status": "for-sale",
+        "price": "$320,000.00",
+        "agent":{
+            "name": "Hellen Mattis",
+            "image": "./images/agent-1-2-60x60.jpg"
+        },
+        "propietary":{
+            "name": "Hellen Mattis",
+            "phoneNumber": "123 456 7890",
+            "email": "agent@gmail.com"
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+        "date": "4 months ago",
+        "area": "2400 Sq Ft",
+        "garage": "2",
+        "bedroom": "3",
+        "bathroom": "3"
+      },
+      {
+        "id": 4,
+        "image":"./images/properties/pixasquare-4.png",
+        "name": "272 S Rexford Dr, Beverly Hills, CA 90212, USA",
+        "location": "Beverly Hills, CA",
+        "type": "house",
+        "status": "for-sale",
+        "price": "$320,000.00",
+        "agent":{
+            "name": "Hellen Mattis",
+            "image": "./images/agent-1-2-60x60.jpg"
+        },
+        "propietary":{
+            "name": "Hellen Mattis",
+            "phoneNumber": "123 456 7890",
+            "email": "agent@gmail.com"
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+        "date": "4 months ago",
+        "area": "2400 Sq Ft",
+        "garage": "2",
+        "bedroom": "3",
+        "bathroom": "3"
+      },
+      {
+        "id": 5,
+        "image":"./images/properties/naomi-5.png",
+        "name": "2478 lucas Rexford Dr, Beverly Hills, CA 90212, USA",
+        "location": "Beverly Hills, CA",
+        "type": "house",
+        "status": "for-sale",
+        "price": "$320,000.00",
+        "agent":{
+            "name": "Hellen Mattis",
+            "image": "./images/agent-1-2-60x60.jpg"
+        },
+        "propietary":{
+            "name": "Hellen Mattis",
+            "phoneNumber": "123 456 7890",
+            "email": "agent@gmail.com"
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+        "date": "4 months ago",
+        "area": "2400 Sq Ft",
+        "garage": "2",
+        "bedroom": "3",
+        "bathroom": "3"
+      },
+      {
+        "id": 6,
+        "image":"./images/properties/lily6.png",
+        "name": "272 S Rexford Dr, Beverly Hills, CA 90212, USA",
+        "location": "Beverly Hills, CA",
+        "type": "house",
+        "status": "for-sale",
+        "price": "$320,000.00",
+        "agent":{
+            "name": "Hellen Mattis",
+            "image": "./images/agent-1-2-60x60.jpg"
+        },
+        "propietary":{
+            "name": "Hellen Mattis",
+            "phoneNumber": "123 456 7890",
+            "email": "agent@gmail.com"
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+        "date": "4 months ago",
+        "area": "2400 Sq Ft",
+        "garage": "2",
+        "bedroom": "3",
+        "bathroom": "3"
+      }
+    ],
+    "hotDeal": [
+        {
+          "id": 1,
+          "image": "./images/29-apartments.jpg",
+          "numPhotos": "5",
+          "type": "Residential Tower For Rent",
+          "description": "15 Apartments of Type B",
+          "location": "Los Angeles, CA",
+          "price": "From $1,700.00 Per Month",
+          "area": "1600 Sq Ft",
+          "garage": "2",
+          "bedroom": "1",
+          "bathroom": "1"
+        }
+    ],
+    "propertiesByArea": [
+        {
+          "id": 1,
+          "image": "./images/los-angeles-1.png",
+          "location": "Los Angeles",
+          "numberProp": "24 properties"
+        },
+        {
+            "id": 2,
+            "image": "./images/san-francisco.png",
+            "location": "San Francisco",
+            "numberProp": "19 properties"
+        },
+        {
+            "id": 3,
+            "image": "./images/seattle.png",
+            "location": "Seattle",
+            "numberProp": "13 properties"
+        },
+        {
+            "id": 4,
+            "image": "./images/sanDiego.png",
+            "location": "San Diego",
+            "numberProp": "1 property"
+        }
+    ],
+    "agents": [
+        {
+          "id": 1,
+          "image": "./images/agent-jhon.jpg",
+          "type": "Real Estate Broker",
+          "name": "JOHN DOE",
+          "phoneNumber": "123 456 7890",
+          "email": "agent@gmail.com"
+        },        
+        {
+            "id": 2,
+            "image": "./images/agent-jhon2.jpg",
+            "type": "Real Estate Broker",
+            "name": "JANE DOE",
+            "phoneNumber": "123 456 7890",
+            "email": "agent1@gmail.com"
+        },
+        {
+            "id": 3,
+            "image": "./images/agent-jane.jpg",
+            "type": "Real Estate Broker",
+            "name": "JOHN DOE",
+            "phoneNumber": "123 456 7890",
+            "email": "agent2@gmail.com"
+        }
+    ]
+}
